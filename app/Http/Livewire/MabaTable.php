@@ -78,11 +78,11 @@ final class MabaTable extends PowerGridComponent
         return [
             Button::add('konfirmasi')
                 ->caption('Konfirmasi ')
-                ->bladeComponent('rowButton', [])
+
                 ->emit('handleKonfirmasi', ['type' => 'konf']),
             Button::add('reset')
                 ->caption('Reset Password')
-                ->bladeComponent('rowButton', [])
+
                 ->emit('handleKonfirmasi', ['type' => 'reset']),
 
         ];
@@ -108,7 +108,7 @@ final class MabaTable extends PowerGridComponent
             ->addColumn('bool_terima', function (Maba $maba) {
                 return $maba->terima ? 'Diterima' : 'Belum Diterima';
             })
-          
+
             ->addColumn('created_at')
             ->addColumn('created_at_formatted', fn (Maba $model) => Carbon::parse($model->created_at)->format('d/m/Y H:i:s'));
     }
