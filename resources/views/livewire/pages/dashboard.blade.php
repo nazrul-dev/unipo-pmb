@@ -9,11 +9,11 @@
             <x-card title="Kontak Admin Dan Panitita">
                 <div class="flex space-x-2 flex-wrap">
                     <a target="_blank" class="bg-green-500 rounded-full py-1.5 px-4 text-white"
-                        href="https://wa.me/15551234567?text=Halo%20saya%20{{ auth()->user()->cekMaba()->nama }}%20dengan%20nomor%20registrasi%20 {{ auth()->user()->cekMaba()->no_reg }} %20ingin%20bertanya">
+                        href="https://wa.me/6282346824903?text=Halo%20saya%20{{ auth()->user()->cekMaba()->nama }}%20dengan%20nomor%20registrasi%20 {{ auth()->user()->cekMaba()->no_reg }} %20ingin%20bertanya">
                         Taufik +62 823-4682-4903
                     </a>
                     <a target="_blank" class="bg-green-500 rounded-full py-1.5 px-4 text-white"
-                        href="https://wa.me/15551234567?text=Halo%20saya%20{{ auth()->user()->cekMaba()->nama }}%20dengan%20nomor%20registrasi%20 {{ auth()->user()->cekMaba()->no_reg }} %20ingin%20bertanya">
+                        href="https://wa.me/6285341903339?text=Halo%20saya%20{{ auth()->user()->cekMaba()->nama }}%20dengan%20nomor%20registrasi%20 {{ auth()->user()->cekMaba()->no_reg }} %20ingin%20bertanya">
                         Agus +62 853-4190-3339
                     </a>
                 </div>
