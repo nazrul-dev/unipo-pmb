@@ -15,6 +15,18 @@
         <div>
             HARAP HUBUNGI KONTAK ADMIN DIBAWAH INI
         </div>
+        <div class="p-5">
+            <div class="flex flex-col items-center gap-2">
+                <a target="_blank" class="whitespace-nowrap bg-green-500 rounded-full py-1.5 px-4 text-white"
+                    href="https://wa.me/6282346824903?text=Halo%20Admin%20Saya%20Mengalami%20Lupa%20Password%20Bisa%20mohon%20bantuanya">
+                    Taufik +62 823-4682-4903
+                </a>
+                <a target="_blank" class="whitespace-nowrap bg-green-500 rounded-full py-1.5 px-4 text-white"
+                    href="https://wa.me/6285341903339?text=Halo%20Admin%20Saya%20Mengalami%20Lupa%20Password%20Bisa%20mohon%20bantuanya">
+                    Agus +62 853-4190-3339
+                </a>
+            </div>
+        </div>
         {{-- <form method="POST" action="{{ route('password.email') }}">
             @csrf
 
