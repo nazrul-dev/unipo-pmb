@@ -1,0 +1,1 @@
+<img class="w-20 h-20 mb-5" src={{ asset('logoone.png') }} />
