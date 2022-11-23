@@ -1,15 +1,15 @@
 <div>
-    <img class="fixed inset-0 w-full z-0 opacity-25"
+    <img class="fixed inset-0 h-full w-full z-0 opacity-25"
         src="https://gopos.id/wp-content/uploads/2020/03/WhatsApp-Image-2020-03-25-at-15.33.29.jpeg" alt="">
     <div class="py-5 fixed overflow-y-auto inset-0 z-10 h-screen">
         <div class="flex flex-col items-center justify-center mb-5">
             <img class="w-20 h-20 mb-5" src={{ asset('logoone.png') }} />
-            <h1>Selamat Datang Di Halaman Pendaftaran Mahasiwa Baru</h1>
+            <h1 class="text-center md:text-sm text-xs text-gray-800">Selamat Datang Di Halaman Pendaftaran Mahasiwa Baru</h1>
             <h1 class="text-2xl font-bold text-gray-700">UNIVERSITAS POHUWATO </h1>
             <h1 class="text-lg font-bold text-gray-700">Tahun Akademik {{ date('Y') }} /
                 {{ date('Y', strtotime('+1 years')) }} </h1>
         </div>
-        <div class="md:w-1/2 mx-auto">
+        <div class="md:w-1/2 md:p-0 px-3 mx-auto">
             <div class="{{ $step == 1 ? 'block' : 'hidden' }}">
 
                 <x-card title="STEP {{ $step }} - Biodata" class="shadow-lg">

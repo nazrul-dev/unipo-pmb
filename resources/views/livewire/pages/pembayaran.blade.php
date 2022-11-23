@@ -1,21 +1,21 @@
 <div>
-    <div class="grid grid-cols-3 gap-4 md:mx-20">
+    <div class="grid md:grid-cols-3 gap-4 md:mx-20">
 
-        <div class="col-span-2">
+        <div class="md:col-span-2">
             <x-card title="Informasi Pembayaran">
                 <div class="pb-10">
-                    <h1>Selamat Datang <br><strong class="text-lg capitalize">{{ auth()->user()->name }}</strong></h1>
-                    <h1>Status Pembayaran Formulir Anda Belum Selesai</h1>
-                    <h1>Silahkan Lanjutkan Ke Tahap Pembayaran Dengan No Rekening Dibawah ini</h1>
+                    <h1 class="md:text-base text-sm">Selamat Datang <br><strong class="md:text-lg capitalize">{{ auth()->user()->name }}</strong></h1>
+                    <h1 class="md:text-base text-sm">Status Pembayaran Formulir Anda Belum Selesai</h1>
+                    <h1 class="md:text-base text-sm">Silahkan Lanjutkan Ke Tahap Pembayaran Dengan No Rekening Dibawah ini</h1>
                     <div class="mt-10 text-center border border-dashed border-gray-400 rounded p-5 bg-yellow-100">
                        
                        
                         <h1 class="font-bold text-lg text-gray-600 py-5 md:text-3xl border-b-2 border-gray-800 border-dashed">  IDR 150.000 </h1>
-                        <h1 class="font-bold md:text-lg text-gray-600 pt-2"> B R I </h1>
-                        <h1 class="font-bold md:text-2xl"> 0648-0103-1486-502</h1>
-                        <h1 class="font-bold md:text-lg text-gray-600"> A/N Suryani Usman</h1>
+                        <h1 class="font-bold text-sm md:text-lg text-gray-600 pt-2"> B R I </h1>
+                        <h1 class="font-bold text-sm md:text-2xl"> 0648-0103-1486-502</h1>
+                        <h1 class="font-bold text-sm md:text-lg text-gray-600"> A/N Suryani Usman</h1>
                     </div>
-                    <div class="mt-3">
+                    <div class="mt-3 text-sm">
                         NOTE : Setelah Melakukan Pembayaran Silahkan Upload Bukti Pembayaran Tombol Di bawah
                     </div>
 

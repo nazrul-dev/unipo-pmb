@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
     <!-- Scripts -->
-    <link rel="stylesheet" href="{{ asset('build/assets/app.70715745.css') }}" />
-    <script src="{{ asset('build/assets/app.a1429abd.js') }}" defer></script>   {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    <link rel="stylesheet" href="{{ asset('build/'.getManifestAssets()['css']) }}" />
+    <script src="{{ asset('build/assets/'.getManifestAssets()['js']) }}" defer></script>   {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
 </head>
 
 <body>

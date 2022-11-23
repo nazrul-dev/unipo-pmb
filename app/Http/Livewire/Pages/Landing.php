@@ -8,6 +8,7 @@ class Landing extends Component
 {
     public function render()
     {
+       
         return view('livewire.pages.landing')->layout('layouts.guest');
     }
 }

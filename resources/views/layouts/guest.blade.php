@@ -16,8 +16,8 @@
     @wireUiScripts
 
     @powerGridStyles
-    <link rel="stylesheet" href="{{ asset('build/assets/app.70715745.css') }}" />
-    <script src="{{ asset('build/assets/app.a1429abd.js') }}" defer></script>    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    <link rel="stylesheet" href="{{ asset('build/'.getManifestAssets()['css']) }}" />
+    <script src="{{ asset('build/'.getManifestAssets()['js']) }}" defer></script>   {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
 
 </head>
 
