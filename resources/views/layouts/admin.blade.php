@@ -16,10 +16,10 @@
     @wireUiScripts
 
     @powerGridStyles
-    <link rel="stylesheet" href="{{ asset('build/' . getManifestAssets()['css']) }}" />
-    <script src="{{ asset('build/assets/' . getManifestAssets()['js']) }}" defer></script>
+    {{-- <link rel="stylesheet" href="{{ asset('build/' . getManifestAssets()['css']) }}" />
+    <script src="{{ asset('build/assets/' . getManifestAssets()['js']) }}" defer></script> --}}
 
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body class="soft-scrollbar font-sans antialiased text-slate-500  bg-gray-200 ">
@@ -27,7 +27,7 @@
 
         <x-dialog z-index="z-50" blur="lg" align="center" />
         <x-notifications z-index="z-50" position="top-right" />
-        <div class="fixed border md:w-[40vh] z-10 bg-white h-screen">
+        <div class="fixed border md:w-[40vh] z-0 bg-white h-screen">
             <div class="mt-5 md:block hidden">
 
                 <h1 class="text-center font-bold">PMB ADMIN BETA</h1>
