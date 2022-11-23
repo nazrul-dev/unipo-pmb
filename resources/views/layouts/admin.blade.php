@@ -16,10 +16,10 @@
     @wireUiScripts
 
     @powerGridStyles
-    {{-- <link rel="stylesheet" href="{{ asset('build/' . getManifestAssets()['css']) }}" />
-    <script src="{{ asset('build/assets/' . getManifestAssets()['js']) }}" defer></script> --}}
+    <link rel="stylesheet" href="{{ asset('build/' . getManifestAssets()['css']) }}" />
+    <script src="{{ asset('build/assets/' . getManifestAssets()['js']) }}" defer></script>
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
 </head>
 
 <body class="soft-scrollbar font-sans antialiased text-slate-500  bg-gray-200 ">

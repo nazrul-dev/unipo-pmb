@@ -45,7 +45,7 @@
               
                 <x-dropdown.item href="{{ route('formulir.download') }}" label="Download Formulir" />
             @endif
-          
+            
             <x-dropdown.item href="{{ route('profile.edit') }}" label="Ganti Passwsord" />
            
             <form method="POST" action="{{ route('logout') }}">
